@@ -48,7 +48,7 @@ func main() {
 	}
 
 	errorsFile, err := os.OpenFile("errorsFile.txt", os.O_CREATE|os.O_RDWR|os.O_APPEND, 0777)
-	defer logFile.Close()
+	defer errorsFile.Close()
 	if err != nil {
 		log.Fatalln("can't open errorsFile.txt file:", err)
 	}
