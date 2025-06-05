@@ -9,5 +9,5 @@ services:
     url: https://bitdashboard.fake
 
 telegram:
-  token: "7645719952:AAGEJ7qPgE2v4pWLZbnNvSKI41v94gtEe40"
-  chat_id: 813507931
+  token: "7645719952:AAGEJ7qPgE2v4pWLZbnNvSKI41v94gtEe40" # Токен бота, который отправляет сообщения
+  chat_id:                                                # id чата "куда" будут отправки сообщения в телеграмме
