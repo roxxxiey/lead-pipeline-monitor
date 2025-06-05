@@ -1,0 +1,13 @@
+services:
+  - name: Formit
+    url: https://formit.fake
+  - name: DataValidator
+    url: https://datavalidator.fake
+  - name: LeadSync
+    url: https://leadsync.fake
+  - name: BitDashboard
+    url: https://bitdashboard.fake
+
+telegram:
+  token: "7645719952:AAGEJ7qPgE2v4pWLZbnNvSKI41v94gtEe40"
+  chat_id: 813507931
