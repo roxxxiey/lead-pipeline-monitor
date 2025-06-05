@@ -36,10 +36,6 @@ func main() {
 	}
 
 	bot := telegram.New(config.Telegram.Token)
-	err = bot.SendMessage("Алибаба", config.Telegram.ChatID)
-	if err != nil {
-		log.Println("Error sending message: " + err.Error())
-	}
 
 	logFile, err := os.OpenFile("log.txt", os.O_CREATE|os.O_RDWR|os.O_APPEND, 0777)
 	defer logFile.Close()
